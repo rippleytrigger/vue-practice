@@ -1,8 +1,13 @@
 new Vue({
     el: '#app',
     data: {
-      message: 'Hello Vue!',
-      startGame: false
+      playerHealth: 100,
+      monsterHealth: 100,
+      startGame: false,
+      eventsLog: []
+    },
+    computed: {
+        
     }
   })
   
